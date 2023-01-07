@@ -20,7 +20,7 @@ const timeForm = `${time.getFullYear()}年${time.getMonth() + 1}月${time.getDat
 console.log('date', timeForm)
 
 function sendGmail () {
-  console.log('send')
+  // console.log('send')
   transporter.sendMail({
     from: sender,
     to: receivers.join(' ,'),
